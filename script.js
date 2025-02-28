@@ -54,4 +54,14 @@ function getRandomQuote() {
 document.getElementById('quote').textContent = getRandomQuote();
 
 // --- Random Image ---
-document.getElementById('randomImage').src = 'https://source.unsplash.com/random';
+const images = [
+  'https://example.com/image1.jpg',
+  'https://example.com/image2.jpg',
+  'https://example.com/image3.jpg',
+  'https://example.com/image4.jpg',
+  'https://example.com/image5.jpg'
+];
+function getRandomImage() {
+  return images[Math.floor(Math.random() * images.length)];
+}
+document.getElementById('randomImage').src = getRandomImage();
