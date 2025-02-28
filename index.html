@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Favicons -->
+  <!-- <link rel="icon" href="favicons/favicon.ico" sizes="32x32">
+  <link rel="icon" href="favicons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicons/apple-touch-icon.png"> -->
+
+  <!-- Stylsheets -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/bentoLayout.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Scripts -->
+  <!-- <script src="js/clock.js" defer></script>
+  <script src="js/date.js" defer></script>
+  <script src="js/streakOfDays.js" defer></script>
+  <script src="js/daysTillEvent.js" defer></script>
+  <script src="js/calculateAgeOf.js" defer ></script> -->
+  <script src="js/script.js" defer></script>
+
+  <title>Mindful Dashboard Template</title>
+</head>
+
+<body>
+
+  <div class="bento-container">
+    <!-- Calendar Widget -->
+    <div class="widget calendar calendar-widget">
+      <h2>Calendar</h2>
+      <div class="calendar" id="calendar"></div>
+    </div>
+
+    <!-- Clock Widget -->
+    <div class="widget clock">
+      <h2>Current Time</h2>
+      <div id="clock"></div>
+    </div>
+
+    <!-- Graduation Countdown Widget -->
+    <div class="widget countdown">
+      <h2>Graduation Countdown</h2>
+      <div id="countdown"></div>
+    </div>
+
+    <!-- Inspirational Quote Widget -->
+    <div class="widget quote">
+      <h2>Inspirational Quote</h2>
+      <div id="quote"></div>
+    </div>
+
+    <!-- Notes Widget -->
+    <div class="widget notes">
+      <h2>Notes & To-Do</h2>
+      <textarea placeholder="Jot down your thoughts..."></textarea>
+    </div>
+
+    <!-- Music Bar Widget -->
+    <div class="widget music music-bar">
+      <h2>Music</h2>
+      <!-- Replace 'your-song.mp3' with your track URL -->
+      <audio controls>
+        <source src="/assets/chill-lofi-music-interior-lounge-256260.mp3" type="audio/mp3">
+      </audio>
+    </div>
+
+    <!-- Random Image Widget -->
+    <div class="widget random">
+      <h2>Random Image</h2>
+      <img id="randomImage" src="" alt="Random Image">
+    </div>
+  </div>
+
+</body>
+</html>
